@@ -8,6 +8,8 @@
     "csanquer/pdo-service-provider": "~1.1dev"
   },
   "require-dev": {
-    "heroku/heroku-buildpack-php": "*"
+    "heroku/heroku-buildpack-php": "*",
+    "symfony/browser-kit": "^3.2",
+    "symfony/css-selector": "^3.2"
   }
 }

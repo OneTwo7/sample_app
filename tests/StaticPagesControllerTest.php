@@ -1,9 +1,11 @@
 <?php
+
 use Silex\WebTestCase;
 
 class StaticPagesControllerTest extends WebTestCase {
+	
   public function createApplication () {
-    return require __DIR__.'/../web/index.php';
+    return require __DIR__.'/../app/app.php';
   }
 
 	private function checkTitle ($params_array) {

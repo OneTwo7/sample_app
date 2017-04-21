@@ -1,0 +1,34 @@
+{
+  "name": "sample_app",
+  "version": "1.0.0",
+  "description": "A sample miniblog app",
+  "main": "web/index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2"
+  },
+  "devDependencies": {
+    "gulp-changed": "^2.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneTwo7/sample_app.git"
+  },
+  "keywords": [
+    "php",
+    "silex"
+  ],
+  "author": "onetwo7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OneTwo7/sample_app/issues"
+  },
+  "homepage": "https://github.com/OneTwo7/sample_app#readme"
+}

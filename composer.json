@@ -3,9 +3,11 @@
     "silex/silex": "^2.0.4",
     "monolog/monolog": "^1.22",
     "twig/twig": "^2.0",
-    "symfony/twig-bridge": "^3",
+    "symfony/twig-bridge": "^3.2",
     "alrik11es/cowsayphp": "^1.2",
-    "csanquer/pdo-service-provider": "~1.1dev"
+    "csanquer/pdo-service-provider": "~1.1dev",
+    "twitter/bootstrap": "^3.3",
+    "symfony/asset": "^3.2"
   },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% block title %}{% endblock %}Sample App</title>
+
+	<link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+</head>
+
+<body>
+	{% include "./partials/header.html" %}
+  <div class="container">
+	  {% block content %}{% endblock %}
+    {% include "./partials/footer.html" %}
+  </div>
+
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+  </script>
+  <script src="{{ asset('js/javascript.js') }}"></script>
+</body>
+</html>
